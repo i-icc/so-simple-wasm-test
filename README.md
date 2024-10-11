@@ -2,6 +2,7 @@
 wasm がどんなものかとりあえず試してみたいんじゃ
 
 # 勉強メモ
+https://www.rust-lang.org/ja/learn/get-started
 ## setup
 インストール
 `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
@@ -15,5 +16,18 @@ info: The currently active `rustc` version is `rustc 1.81.0 (eeb90cda1 2024-09-0
 cargo 1.81.0 (2dbb1af80 2024-08-20)
 ```
 
-## start project
-`cargo new hello-rust`
+## start project & run!
+```sh
+cargo new hello-rust
+cd hello-rust
+cargo run
+```
+
+
+### use package
+rust ではパッケージのことを`クレート`と呼ぶ
+
+Cargo.toml に 追加してビルド
+`cargo build`
+
+コードを書き換えて `cargo run`
