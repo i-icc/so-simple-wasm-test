@@ -2,7 +2,7 @@
 wasm がどんなものかとりあえず試してみたいんじゃ
 
 # 勉強メモ
-https://www.rust-lang.org/ja/learn/get-started
+[使用リンク](https://www.rust-lang.org/ja/learn/get-started)
 ## setup
 インストール
 `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
@@ -31,3 +31,16 @@ Cargo.toml に 追加してビルド
 `cargo build`
 
 コードを書き換えて `cargo run`
+
+# 本題！ wasm を試してみよう！
+[参考リンク](https://rustwasm.github.io/docs/book/)
+目標 : コンウェイのライフゲームを作る！
+
+## rust のインストール！
+上のやつ
+
+## wasm-pack のインストール！
+`curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh`
+
+## git リポジトリをテンプレートとして Rustプロジェクトを作れるやつをインストール
+`cargo install cargo-generate`
