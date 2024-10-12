@@ -44,3 +44,10 @@ Cargo.toml に 追加してビルド
 
 ## git リポジトリをテンプレートとして Rustプロジェクトを作れるやつをインストール
 `cargo install cargo-generate`
+
+## wasm プロジェクト作成・ビルド
+https://rustwasm.github.io/docs/book/game-of-life/hello-world.html
+
+`wasm-pack build`
+
+pkg ディレクトリにoutputが生成される
