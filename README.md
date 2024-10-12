@@ -51,3 +51,11 @@ https://rustwasm.github.io/docs/book/game-of-life/hello-world.html
 `wasm-pack build`
 
 pkg ディレクトリにoutputが生成される
+
+web page の作成
+`npm init wasm-app www
+`
+npm install
+
+
+`wasm-pack build --target web`
